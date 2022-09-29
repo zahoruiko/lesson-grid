@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+         }
+        #wrapper {
+            background-color: white;
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            grid-template-rows: repeat(4, auto);
+            grid-template-areas: 
+            "block1 block2 block2 block3"
+            "block4 block5 block5 block6"
+            "block4 block7 block8 block6"
+            "block9 block9 block9 block6";
+            grid-gap: 10px;
+            height: 100vh;
+        }
+        #block1 {
+            grid-area: block1;
+            background-color: cornflowerblue;
+        }
+        #block2 {
+            grid-area: block2;
+            background-color: cornflowerblue;
+        }
+        #block3 {
+            grid-area: block3;
+            background-color: cornflowerblue;
+        }
+        #block4 {
+            grid-area: block4;
+            background-color: cornflowerblue;
+        }
+        #block5 {
+            grid-area: block5;
+            background-color: cornflowerblue;
+        }
+        #block6 {
+            grid-area: block6;
+            background-color: cornflowerblue;
+        }
+        #block7 {
+            grid-area: block7;
+            background-color: cornflowerblue;
+        }
+        #block8 {
+            grid-area: block8;
+            background-color: cornflowerblue;
+        }
+        #block9 {
+            grid-area: block9;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="block1"></div>
+        <div id="block2"></div>
+        <div id="block3"></div>
+        <div id="block4"></div>
+        <div id="block5"></div>
+        <div id="block6"></div>
+        <div id="block7"></div>
+        <div id="block8"></div>
+        <div id="block9"></div>
+    </div>
+</body>
+</html>
